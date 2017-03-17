@@ -13,12 +13,7 @@ Const Data20SitesColumn = 6
 Const Data20SitesRowEnd = 12
 
 Sub QuickClean()
-Attribute QuickClean.VB_ProcData.VB_Invoke_Func = " \n14"
-'
-' QuickClean ¥¨¶°
-'
-
-'
+    Attribute QuickClean.VB_ProcData.VB_Invoke_Func = " \n14"
     Sheets("Reference").Select
     Range("A1:BB288").Select
     Selection.Copy
